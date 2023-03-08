@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import './globals.css'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'Cyber Polygon',
@@ -45,8 +46,9 @@ export default function RootLayout({
             <span>Выйти</span>
           </button>
         </nav>
-        <div className='mt-24 mx-14'>
-          <header>123</header>
+        <div className='mt-24 mx-14 w-full justify-end'>
+          <header className='flex flex-row'>
+          </header>
           {children}
         </div>
       </body>
